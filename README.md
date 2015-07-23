@@ -1,4 +1,4 @@
-# denton-texas
+# NodeSchool Denton
 Welcome to nodeSchool in beautiful Denton Texas
 
 Check out our [website for events and news](http://nodeschool.io/denton-texas/).
