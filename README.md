@@ -1,5 +1,5 @@
 # NodeSchool Denton
-Welcome to nodeSchool in beautiful Denton Texas
+Welcome to beautiful Denton Texas :-)
 
 Check out our [website for events and news](http://nodeschool.io/denton-texas/).
 
