@@ -245,3 +245,25 @@ a {
 .cf {
   zoom:1;
 }
+
+/* Some style on that MailChimp sign-up form */
+
+.good-looker {
+    border: none;
+    padding: .5em;
+    display: block;
+    margin-top: 5px;
+    font-size: 1.1em;
+    font-family: Monaco;
+    color: white;
+    background: linear-gradient( 14deg, rgb(45, 230, 41), rgba(45, 230, 41, .6) 40%, rgba(45, 230, 41, .4) );
+}
+
+.lookin-good {
+    width: 13em;
+    padding: .7em;
+    background-color: cornflowerblue;
+    margin-top: 1em;
+    font-size: 1em;
+    color: whitesmoke;
+}
