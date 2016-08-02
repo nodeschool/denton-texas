@@ -251,19 +251,20 @@ a {
 .good-looker {
     border: none;
     padding: .5em;
-    display: block;
-    margin-top: 5px;
-    font-size: 1.1em;
+    font-size: 3.1em;
     font-family: Monaco;
-    color: white;
-    background: linear-gradient( 14deg, rgb(45, 230, 41), rgba(45, 230, 41, .6) 40%, rgba(45, 230, 41, .4) );
+    color: #f8f8f8;
+    background-size: 100% 260%;
+    background-position: 0rem -5rem;
+    background-image: url('https://media.giphy.com/media/3rgXBAKopU55wtfp6g/giphy.gif');
 }
 
 .lookin-good {
-    width: 13em;
-    padding: .7em;
+    width: 55%;
+    padding: 1rem;
     background-color: cornflowerblue;
+    border: none;
     margin-top: 1em;
-    font-size: 1em;
-    color: whitesmoke;
+    font-size: 2em;
+    color: #e9e1e1;
 }
