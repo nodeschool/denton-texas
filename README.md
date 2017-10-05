@@ -1,7 +1,7 @@
 # NodeSchool Denton
 Welcome to beautiful Denton, Texas :-)
 
-Check out our [website for events and news](http://nodeschool.io/denton-texas/). There's also a newsletter, sign up!
+Check out our [website for events and news](http://nodeschool.io/denton-texas/). There's also a newsletter, Sign up!!!
 
 We're pretty informal, come join us if you like :-)
 
@@ -47,4 +47,4 @@ We abide by the same [Code of Conduct](http://nodeschool.io/dallas/code-of-condu
 ### Collaborating
 
 Want to add something? See any errors? Just submit a PR!
-- note: our default branch is `<gh-pages>`
+- Note: our default branch is `<gh-pages>`
