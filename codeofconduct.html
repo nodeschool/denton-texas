@@ -6,6 +6,74 @@
 
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+     <!-- Jekyll Metadata -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+     <!-- Basic Info -->
+     <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+
+    <meta name="author" content="Bootstrap Denton">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% if page.image %}
+        <meta property="og:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+    {% else %}
+        <meta property="og:image" content="http://www.bootstrapdenton.com/images/bd-og-new.jpg">
+    {% endif %}
+    <meta property="og:type" content="website" /> 
+    <meta property="twitter:creator" content="{{ site.twitter_username }}">
+    <meta property="twitter:site" content="{{ site.twitter_username }}">
+
+    <!-- METADATA / OG / TWITTER -->
+    {% if page.desc %}
+    <meta name="description" content="{{ page.desc }}" >
+    <meta property="og:description" content="{{ page.desc }}">
+    <meta name="twitter:description" content="{{ page.desc }}">
+    {% else %}
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
+    {% endif %}
+
+    <!-- KEYWORDS -->
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords }}" >
+    {% else %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ site.twitter_username }}">
+    <meta name="twitter:creator" content="{{ site.twitter_username }}">
+    {% if page.image %}
+        <meta property="twitter:image" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+    {% else %}
+        <meta property="twitter:image" content="https://www.bootstrapdenton.com/images/bd-og-new.jpg">
+    {% endif %}
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/favicons/manifest.json">
+    <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#212121">
+    <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
 
     <title>NodeSchool Denton by nodeschool</title>
   </head>
